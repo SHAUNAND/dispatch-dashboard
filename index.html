@@ -267,8 +267,11 @@ footer { text-align: center; padding: 16px; font-size: 12px; color: #ccc; }
       <div class="hint">Stored only in this browser. Needed to upload CSV data. Leave blank for view-only.</div>
     </div>
 
+    <div id="testResult" style="display:none;margin-top:12px;padding:10px 14px;border-radius:7px;font-size:13px;"></div>
+
     <div class="modal-actions">
       <button class="btn-cancel" onclick="closeSettings()">Cancel</button>
+      <button class="btn-cancel" onclick="testConnection()" style="border-color:#1a56db;color:#1a56db;">Test Connection</button>
       <button class="btn-primary" onclick="saveSettings()">Save &amp; Connect</button>
     </div>
   </div>
@@ -295,7 +298,27 @@ function hasCfg()  { var c = cfg(); return !!(c.owner && c.repo); }
 function isAdmin() { return !!cfg().token; }
 function isBaked() { return BAKED_OWNER !== 'SHAUNAND'; }
 
-// Fetch data from GitHub raw
+// Cache the detected default branch so we only fetch it once per session
+var cachedBranch = null;
+
+async function getDefaultBranch() {
+  if (cachedBranch) return cachedBranch;
+  var c = cfg();
+  // Try fetching repo info with token if available, otherwise anonymous
+  var headers = { Accept: 'application/vnd.github+json' };
+  if (c.token) headers.Authorization = 'Bearer ' + c.token;
+  var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo, { headers: headers });
+  if (!res.ok) {
+    var err = await res.json().catch(function(){ return {}; });
+    if (res.status === 401 || res.status === 403) throw new Error('Token rejected — check your Personal Access Token in Settings.');
+    if (res.status === 404) throw new Error('Repository "' + c.owner + '/' + c.repo + '" not found. Check your Settings.');
+    throw new Error(err.message || 'GitHub error ' + res.status);
+  }
+  cachedBranch = (await res.json()).default_branch || 'main';
+  return cachedBranch;
+}
+
+// Fetch data from GitHub raw (tries the correct branch automatically)
 async function fetchData() {
   if (!hasCfg()) {
     setStatus('grey', 'Not configured — click Settings to connect');
@@ -305,7 +328,8 @@ async function fetchData() {
   var c = cfg();
   setStatus('amber', 'Loading...');
   try {
-    var url = 'https://raw.githubusercontent.com/' + c.owner + '/' + c.repo + '/main/data.json?t=' + Date.now();
+    var branch = await getDefaultBranch();
+    var url = 'https://raw.githubusercontent.com/' + c.owner + '/' + c.repo + '/' + branch + '/data.json?t=' + Date.now();
     var res = await fetch(url);
     if (res.status === 404) {
       allOrders = [];
@@ -325,7 +349,7 @@ async function fetchData() {
       document.getElementById('recordCount').textContent = allOrders.length + ' orders in store';
     }
   } catch(e) {
-    setStatus('red', 'Error loading data: ' + e.message);
+    setStatus('red', e.message);
     allOrders = [];
   }
   renderTable(filtered());
@@ -333,23 +357,26 @@ async function fetchData() {
 }
 
 // Get SHA of existing data.json (needed for GitHub API update)
-async function getFileSha() {
+async function getFileSha(branch) {
   var c = cfg();
-  var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo + '/contents/data.json', {
+  var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo + '/contents/data.json?ref=' + branch, {
     headers: { Authorization: 'Bearer ' + c.token, Accept: 'application/vnd.github+json' }
   });
   if (res.status === 404) return null;
-  if (!res.ok) throw new Error('GitHub API ' + res.status);
+  if (res.status === 401 || res.status === 403) throw new Error('Token rejected — check your Personal Access Token in Settings.');
+  if (!res.ok) throw new Error('GitHub error ' + res.status);
   return (await res.json()).sha;
 }
 
 // Push data.json to GitHub
 async function pushData(data) {
-  var c       = cfg();
-  var sha     = await getFileSha();
-  var json    = JSON.stringify(data, null, 2);
+  var c      = cfg();
+  if (!c.token) throw new Error('No token — enter your Personal Access Token in Settings.');
+  var branch = await getDefaultBranch();
+  var sha    = await getFileSha(branch);
+  var json   = JSON.stringify(data, null, 2);
   var content = btoa(unescape(encodeURIComponent(json)));
-  var body    = { message: 'Update dispatch data ' + new Date().toISOString().slice(0,10), content: content, branch: 'main' };
+  var body   = { message: 'Update dispatch data ' + new Date().toISOString().slice(0,10), content: content, branch: branch };
   if (sha) body.sha = sha;
   var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo + '/contents/data.json', {
     method: 'PUT',
@@ -358,7 +385,11 @@ async function pushData(data) {
   });
   if (!res.ok) {
     var err = await res.json().catch(function(){ return {}; });
-    throw new Error(err.message || 'GitHub API ' + res.status);
+    var msg = err.message || 'GitHub error ' + res.status;
+    if (res.status === 401 || res.status === 403) msg = 'Token rejected — check your Personal Access Token in Settings.';
+    if (res.status === 404) msg = 'Repository not found. Re-run Setup-GitHub.ps1 or check Settings.';
+    if (res.status === 422) msg = 'GitHub rejected the update (SHA conflict) — try refreshing the page and dropping the CSV again.';
+    throw new Error(msg);
   }
 }
 
@@ -552,6 +583,46 @@ function openSettings() {
 function closeSettings() { document.getElementById('settingsOverlay').classList.remove('open'); }
 function overlayClick(e) { if (e.target === document.getElementById('settingsOverlay')) closeSettings(); }
 
+async function testConnection() {
+  var owner = isBaked() ? BAKED_OWNER : document.getElementById('cfgOwner').value.trim();
+  var repo  = isBaked() ? BAKED_REPO  : document.getElementById('cfgRepo').value.trim();
+  var token = document.getElementById('cfgToken').value.trim();
+  var el    = document.getElementById('testResult');
+  el.style.display = 'block';
+  el.style.background = '#e8f0fe'; el.style.color = '#1a56db';
+  el.textContent = 'Testing...';
+  try {
+    var headers = { Accept: 'application/vnd.github+json' };
+    if (token) headers.Authorization = 'Bearer ' + token;
+    var res = await fetch('https://api.github.com/repos/' + owner + '/' + repo, { headers: headers });
+    if (res.status === 404) throw new Error('Repository "' + owner + '/' + repo + '" not found. Check username and repo name.');
+    if (res.status === 401) throw new Error('Token is invalid or expired. Generate a new one at github.com.');
+    if (res.status === 403) throw new Error('Token does not have permission. Make sure it has "repo" scope.');
+    if (!res.ok) throw new Error('GitHub returned error ' + res.status);
+    var info = await res.json();
+    var branch = info.default_branch || 'main';
+    // Check if token can write
+    var writeMsg = '';
+    if (token) {
+      var fileRes = await fetch('https://api.github.com/repos/' + owner + '/' + repo + '/contents/data.json?ref=' + branch, {
+        headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' }
+      });
+      if (fileRes.status === 401 || fileRes.status === 403) {
+        writeMsg = ' Warning: token may not have write access.';
+      } else {
+        writeMsg = ' Token has access. Ready to upload.';
+      }
+    } else {
+      writeMsg = ' No token entered — view only.';
+    }
+    el.style.background = '#e6f9f0'; el.style.color = '#1a7a4a';
+    el.textContent = 'Connected to ' + owner + '/' + repo + ' (branch: ' + branch + ').' + writeMsg;
+  } catch(e) {
+    el.style.background = '#ffeaea'; el.style.color = '#c0392b';
+    el.textContent = 'Failed: ' + e.message;
+  }
+}
+
 async function saveSettings() {
   if (!isBaked()) {
     var owner = document.getElementById('cfgOwner').value.trim();
@@ -563,6 +634,7 @@ async function saveSettings() {
   var token = document.getElementById('cfgToken').value.trim();
   if (token) localStorage.setItem('gh_token', token);
   else       localStorage.removeItem('gh_token');
+  cachedBranch = null; // reset so it re-detects on next load
   closeSettings();
   await fetchData();
 }

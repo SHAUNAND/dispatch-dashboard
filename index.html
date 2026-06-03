@@ -466,7 +466,7 @@ async function handleFile(file) {
     newOrders.forEach(function(o) { byId[o.orderId] = o; });
     var merged = {
       lastUpdated: new Date().toISOString(),
-      orders: Object.values(byId).sort(function(a,b){ return (b.date||'').localeCompare(a.date||''); })
+      orders: Object.values(byId).sort(function(a,b){ return parseInt(a.orderId||0,10) - parseInt(b.orderId||0,10); })
     };
     await pushData(merged);
     allOrders = merged.orders;
@@ -530,6 +530,7 @@ function filtered() {
              (o.carrier||'').toLowerCase().includes(searchQuery);
     });
   }
+  out.sort(function(a,b){ return parseInt(a.orderId||0,10) - parseInt(b.orderId||0,10); });
   return out;
 }
 

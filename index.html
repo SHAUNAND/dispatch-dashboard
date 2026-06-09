@@ -425,7 +425,7 @@ function parseCSV(text) {
     if (rawDt) {
       var dt = new Date(rawDt.replace(' ', 'T'));
       if (!isNaN(dt)) {
-        dateISO = dt.toISOString().slice(0, 10);
+        dateISO = localDate(dt);
         dispFmt = dt.toLocaleDateString('en-AU', {day:'2-digit',month:'short',year:'numeric'}) +
                   ' ' + dt.toLocaleTimeString('en-AU', {hour:'2-digit',minute:'2-digit'});
       }
@@ -491,8 +491,14 @@ function showMsg(type, text) {
 }
 
 // Filtering
-function todayStr() { return new Date().toISOString().slice(0,10); }
-function daysAgo(n) { var d = new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
+function localDate(d) {
+  var dt = d || new Date();
+  return dt.getFullYear() + '-' +
+    String(dt.getMonth() + 1).padStart(2, '0') + '-' +
+    String(dt.getDate()).padStart(2, '0');
+}
+function todayStr() { return localDate(); }
+function daysAgo(n) { var d = new Date(); d.setDate(d.getDate() - n); return localDate(d); }
 
 function setPreset(p) {
   curPreset = p;

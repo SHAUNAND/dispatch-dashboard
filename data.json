@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T01:02:09.201Z",
+  "lastUpdated": "2026-06-09T01:12:01.176Z",
   "orders": [
     {
       "orderId": "4065",
@@ -1866,7 +1866,7 @@
       "shopifyRef": "#7221 - SEC",
       "carrier": "StarTrack",
       "tracking": "7ODZ50051032",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:12 am",
       "destination": "Chemist Warehouse Sandgate - SANDGATE QLD",
       "status": "Dispatched"
@@ -1876,7 +1876,7 @@
       "shopifyRef": "#7221 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:13 am",
       "destination": "Chemist Warehouse Sandgate - SANDGATE QLD",
       "status": "Dispatched"
@@ -1886,7 +1886,7 @@
       "shopifyRef": "#7222 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 06:39 am",
       "destination": "Rays Wellness | Specialty Wellness & Lifestyle Pharmacy - FORTITUDE VALLEY QLD",
       "status": "Dispatched"
@@ -1896,7 +1896,7 @@
       "shopifyRef": "#7223 - BODEGA",
       "carrier": "StarTrack",
       "tracking": "7ODZ50051036",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:19 am",
       "destination": "Canwell Dispensary - MORLEY WA",
       "status": "Dispatched"
@@ -1906,7 +1906,7 @@
       "shopifyRef": "#7223 - SEC",
       "carrier": "-",
       "tracking": "-",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:20 am",
       "destination": "Canwell Dispensary - MORLEY WA",
       "status": "Dispatched"
@@ -1916,7 +1916,7 @@
       "shopifyRef": "#7224 - BODEGA",
       "carrier": "StarTrack",
       "tracking": "7ODZ50051033",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:27 am",
       "destination": "Busselton Pharmacy - WEST BUSSELTON WA",
       "status": "Dispatched"
@@ -1926,7 +1926,7 @@
       "shopifyRef": "#7225 - ALL NATION",
       "carrier": "-",
       "tracking": "-",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:30 am",
       "destination": "Prospect Compounding Pharmacy - WENDOUREE VIC",
       "status": "Dispatched"
@@ -1936,7 +1936,7 @@
       "shopifyRef": "#7225 - BODEGA",
       "carrier": "StarTrack",
       "tracking": "7ODZ50051039",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:33 am",
       "destination": "Prospect Compounding Pharmacy - WENDOUREE VIC",
       "status": "Dispatched"
@@ -1946,7 +1946,7 @@
       "shopifyRef": "#7225 - SEC",
       "carrier": "-",
       "tracking": "-",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:33 am",
       "destination": "Prospect Compounding Pharmacy - WENDOUREE VIC",
       "status": "Dispatched"
@@ -1956,7 +1956,7 @@
       "shopifyRef": "#7226 - SEC",
       "carrier": "-",
       "tracking": "-",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:57 am",
       "destination": "Ipswich Central Chempro Chemist - IPSWICH QLD",
       "status": "Dispatched"
@@ -1966,7 +1966,7 @@
       "shopifyRef": "#7226 - BODEGA",
       "carrier": "StarTrack",
       "tracking": "7ODZ50051037",
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "dispatched": "09 June 2026 09:57 am",
       "destination": "Ipswich Central Chempro Chemist - IPSWICH QLD",
       "status": "Dispatched"

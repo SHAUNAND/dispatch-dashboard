@@ -278,10 +278,6 @@ footer { text-align: center; padding: 16px; font-size: 12px; color: #ccc; }
 </div>
 
 <script>
-// Embedded config - replaced by Setup-GitHub.ps1 before publishing
-var BAKED_OWNER = 'SHAUNAND';
-var BAKED_REPO  = 'dispatch-dashboard';
-
 // State
 var allOrders   = [];
 var curPreset   = 'all';
@@ -290,13 +286,24 @@ var customFrom  = '';
 var customTo    = '';
 
 function cfg() {
-  var owner = (BAKED_OWNER !== 'SHAUNAND') ? BAKED_OWNER : (localStorage.getItem('gh_owner') || '');
-  var repo  = (BAKED_REPO  !== 'dispatch-dashboard')  ? BAKED_REPO  : (localStorage.getItem('gh_repo')  || '');
+  // Auto-detect owner/repo from the GitHub Pages URL (e.g. shaunand.github.io/dispatch-dashboard/)
+  // This means any visitor just opening the URL gets data automatically - no setup needed.
+  var autoOwner = '', autoRepo = '';
+  var host = window.location.hostname;
+  var path = window.location.pathname;
+  if (host.endsWith('.github.io')) {
+    autoOwner = host.replace('.github.io', '');
+    autoRepo  = path.split('/').filter(Boolean)[0] || '';
+  }
+  var owner = autoOwner || localStorage.getItem('gh_owner') || '';
+  var repo  = autoRepo  || localStorage.getItem('gh_repo')  || '';
   return { owner: owner, repo: repo, token: localStorage.getItem('gh_token') || '' };
 }
 function hasCfg()  { var c = cfg(); return !!(c.owner && c.repo); }
+// "Auto" means we're on GitHub Pages and owner/repo are known from the URL - no manual config needed
+function isAuto()  { return window.location.hostname.endsWith('.github.io'); }
 function isAdmin() { return !!cfg().token; }
-function isBaked() { return BAKED_OWNER !== 'SHAUNAND'; }
+function isBaked() { return isAuto(); }
 
 // Cache the detected default branch so we only fetch it once per session
 var cachedBranch = null;
@@ -569,10 +576,10 @@ function setStatus(color, text) {
 // Settings modal
 function openSettings() {
   var c = cfg();
-  if (isBaked()) {
+  if (isAuto()) {
     document.getElementById('bakedInfo').style.display = 'block';
     document.getElementById('manualInfo').style.display = 'none';
-    document.getElementById('repoBadge').textContent = BAKED_OWNER + '/' + BAKED_REPO;
+    document.getElementById('repoBadge').textContent = cfg().owner + '/' + cfg().repo;
     document.getElementById('ownerField').style.display = 'none';
     document.getElementById('repoField').style.display  = 'none';
   } else {
@@ -591,8 +598,8 @@ function closeSettings() { document.getElementById('settingsOverlay').classList.
 function overlayClick(e) { if (e.target === document.getElementById('settingsOverlay')) closeSettings(); }
 
 async function testConnection() {
-  var owner = isBaked() ? BAKED_OWNER : document.getElementById('cfgOwner').value.trim();
-  var repo  = isBaked() ? BAKED_REPO  : document.getElementById('cfgRepo').value.trim();
+  var owner = isAuto() ? cfg().owner : document.getElementById('cfgOwner').value.trim();
+  var repo  = isAuto() ? cfg().repo  : document.getElementById('cfgRepo').value.trim();
   var token = document.getElementById('cfgToken').value.trim();
   var el    = document.getElementById('testResult');
   el.style.display = 'block';
@@ -631,7 +638,7 @@ async function testConnection() {
 }
 
 async function saveSettings() {
-  if (!isBaked()) {
+  if (!isAuto()) {
     var owner = document.getElementById('cfgOwner').value.trim();
     var repo  = document.getElementById('cfgRepo').value.trim();
     if (!owner || !repo) { alert('Please enter your GitHub username and repository name.'); return; }

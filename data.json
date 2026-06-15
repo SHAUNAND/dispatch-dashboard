@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T04:57:55.991Z",
+  "lastUpdated": "2026-06-15T04:59:01.359Z",
   "orders": [
     {
       "orderId": "4065",
@@ -3244,8 +3244,8 @@
     {
       "orderId": "4395",
       "shopifyRef": "#7328",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "52738860",
       "date": "2026-06-15",
       "dispatched": "15 June 2026 12:45 pm",
       "destination": "Chemist Warehouse Crestmead - CRESTMEAD QLD",
@@ -3284,8 +3284,8 @@
     {
       "orderId": "4399",
       "shopifyRef": "#7324 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "52739088",
       "date": "2026-06-15",
       "dispatched": "15 June 2026 12:50 pm",
       "destination": "Chemist Warehouse Oxley - OXLEY QLD",

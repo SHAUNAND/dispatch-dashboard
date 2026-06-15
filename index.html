@@ -113,6 +113,12 @@ td.tracking-cell { font-family: 'Courier New', monospace; font-size: 13px; color
 .badge-dispatched { background: #e6f9f0; color: #1a7a4a; }
 .badge-other      { background: #fff3e0; color: #bf5800; }
 .placeholder-row td { text-align: center; padding: 56px 20px; color: #bbb; font-size: 15px; }
+.btn-edit {
+  background: none; border: 1.5px solid #ddd; border-radius: 5px; cursor: pointer;
+  color: #aaa; font-size: 13px; padding: 3px 8px; transition: all 0.15s; white-space: nowrap;
+}
+.btn-edit:hover { border-color: #e94560; color: #e94560; background: rgba(233,69,96,0.06); }
+td.edit-cell { width: 48px; text-align: center; }
 
 /* Modal */
 .overlay {
@@ -221,6 +227,7 @@ footer { text-align: center; padding: 16px; font-size: 12px; color: #ccc; }
         <th>Tracking Number</th>
         <th>Destination</th>
         <th>Status</th>
+        <th id="editColHeader" style="display:none"></th>
       </tr>
     </thead>
     <tbody id="tableBody">
@@ -230,6 +237,34 @@ footer { text-align: center; padding: 16px; font-size: 12px; color: #ccc; }
 </div>
 
 <footer>Canntic Dispatch Dashboard</footer>
+
+<!-- Edit carrier/tracking modal -->
+<div class="overlay" id="editOverlay" onclick="closeEditIfOverlay(event)">
+  <div class="modal" style="width:420px">
+    <h2>&#9998; Edit Transport Details</h2>
+    <p class="modal-sub" id="editModalSub"></p>
+    <div class="form-group">
+      <label>Transport Company</label>
+      <select id="editCarrier" style="width:100%;padding:10px 12px;border:1.5px solid #ddd;border-radius:7px;font-size:14px;outline:none;background:white;">
+        <option value="">-- Select --</option>
+        <option>TCFCO</option>
+        <option>Dir Couriers</option>
+        <option>StarTrack</option>
+        <option>Australia Post</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Tracking Number <span style="font-weight:400;color:#bbb">(leave blank if none)</span></label>
+      <input type="text" id="editTracking" placeholder="e.g. 7ODZ50050652">
+    </div>
+    <div id="editMsg" style="display:none;padding:10px 14px;border-radius:7px;font-size:13px;margin-bottom:12px;"></div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeEdit()">Cancel</button>
+      <button class="btn-primary" onclick="saveEdit()">Save</button>
+    </div>
+  </div>
+</div>
 
 <!-- Settings modal -->
 <div class="overlay" id="settingsOverlay" onclick="overlayClick(event)">
@@ -555,22 +590,91 @@ function renderTable(orders) {
   document.getElementById('cDispatched').textContent = dispatched;
   document.getElementById('cOther').textContent      = orders.length - dispatched;
   document.getElementById('cDays').textContent       = days;
+  // Show edit column header only for admins
+  document.getElementById('editColHeader').style.display = isAdmin() ? '' : 'none';
+  var colspan = isAdmin() ? 8 : 7;
   var tbody = document.getElementById('tableBody');
   if (!orders.length) {
-    tbody.innerHTML = '<tr class="placeholder-row"><td colspan="7">No orders match the current filter.</td></tr>';
+    tbody.innerHTML = '<tr class="placeholder-row"><td colspan="' + colspan + '">No orders match the current filter.</td></tr>';
     return;
   }
   tbody.innerHTML = orders.map(function(o){
-    var bc = o.status === 'Dispatched' ? 'badge-dispatched' : 'badge-other';
+    var bc   = o.status === 'Dispatched' ? 'badge-dispatched' : 'badge-other';
+    var editBtn = isAdmin()
+      ? '<td class="edit-cell"><button class="btn-edit" onclick="openEdit(\'' + o.orderId + '\')">&#9998;</button></td>'
+      : '';
     return '<tr><td>' + (o.dispatched||o.date||'-') + '</td><td><strong>' + o.orderId + '</strong></td><td>' +
       o.shopifyRef + '</td><td>' + o.carrier + '</td><td class="tracking-cell">' + o.tracking +
-      '</td><td>' + o.destination + '</td><td><span class="badge ' + bc + '">' + o.status + '</span></td></tr>';
+      '</td><td>' + o.destination + '</td><td><span class="badge ' + bc + '">' + o.status + '</span></td>' +
+      editBtn + '</tr>';
   }).join('');
 }
 
 function setStatus(color, text) {
   document.getElementById('statusDot').className = 'dot ' + color;
   document.getElementById('statusText').textContent = text;
+}
+
+// Edit carrier/tracking
+var editingOrderId = null;
+
+function openEdit(orderId) {
+  var order = allOrders.filter(function(o){ return o.orderId === orderId; })[0];
+  if (!order) return;
+  editingOrderId = orderId;
+  document.getElementById('editModalSub').textContent = 'Order #' + order.orderId + '  —  ' + order.destination;
+  var sel = document.getElementById('editCarrier');
+  var knownOptions = ['TCFCO','Dir Couriers','StarTrack','Australia Post','Other'];
+  var currentCarrier = (order.carrier === '-') ? '' : order.carrier;
+  // Pre-select if known, else set to Other
+  sel.value = knownOptions.indexOf(currentCarrier) >= 0 ? currentCarrier : (currentCarrier ? 'Other' : '');
+  document.getElementById('editTracking').value = (order.tracking === '-') ? '' : order.tracking;
+  document.getElementById('editMsg').style.display = 'none';
+  document.getElementById('editOverlay').classList.add('open');
+  document.getElementById('editTracking').focus();
+}
+
+function closeEdit() { document.getElementById('editOverlay').classList.remove('open'); editingOrderId = null; }
+function closeEditIfOverlay(e) { if (e.target === document.getElementById('editOverlay')) closeEdit(); }
+
+async function saveEdit() {
+  if (!editingOrderId) return;
+  var carrier  = document.getElementById('editCarrier').value.trim();
+  var tracking = document.getElementById('editTracking').value.trim();
+  var msgEl    = document.getElementById('editMsg');
+
+  msgEl.style.display = 'block';
+  msgEl.style.background = '#e8f0fe'; msgEl.style.color = '#1a56db';
+  msgEl.textContent = 'Saving...';
+
+  // Update in allOrders
+  allOrders = allOrders.map(function(o) {
+    if (o.orderId !== editingOrderId) return o;
+    return Object.assign({}, o, {
+      carrier:  carrier  || '-',
+      tracking: tracking || '-'
+    });
+  });
+
+  try {
+    var data = { lastUpdated: new Date().toISOString(), orders: allOrders };
+    await pushData(data);
+    var now = new Date();
+    document.getElementById('lastUpdatedLabel').textContent =
+      'Last updated: ' + now.toLocaleDateString('en-AU', {day:'2-digit',month:'short',year:'numeric'}) +
+      ' ' + now.toLocaleTimeString('en-AU', {hour:'2-digit',minute:'2-digit'});
+    msgEl.style.background = '#e6f9f0'; msgEl.style.color = '#1a7a4a';
+    msgEl.textContent = 'Saved!';
+    setTimeout(function(){ closeEdit(); renderTable(filtered()); }, 800);
+  } catch(e) {
+    msgEl.style.background = '#ffeaea'; msgEl.style.color = '#c0392b';
+    msgEl.textContent = 'Error: ' + e.message;
+    // Revert local change on failure
+    allOrders = allOrders.map(function(o) {
+      if (o.orderId !== editingOrderId) return o;
+      return Object.assign({}, o);
+    });
+  }
 }
 
 // Settings modal

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T04:30:29.437Z",
+  "lastUpdated": "2026-06-15T04:57:55.991Z",
   "orders": [
     {
       "orderId": "4065",
@@ -3234,8 +3234,8 @@
     {
       "orderId": "4394",
       "shopifyRef": "#7329 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "52741639",
       "date": "2026-06-15",
       "dispatched": "15 June 2026 12:41 pm",
       "destination": "Chemist Warehouse Jindalee Home Shopping Centre - JINDALEE QLD",

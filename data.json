@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T05:00:13.569Z",
+  "lastUpdated": "2026-06-15T05:01:20.649Z",
   "orders": [
     {
       "orderId": "4065",
@@ -3354,7 +3354,7 @@
     {
       "orderId": "4406",
       "shopifyRef": "#7319 - BODEGA",
-      "carrier": "-",
+      "carrier": "TCFCO",
       "tracking": "-",
       "date": "2026-06-15",
       "dispatched": "15 June 2026 12:55 pm",
@@ -3564,8 +3564,8 @@
     {
       "orderId": "4427",
       "shopifyRef": "#7344-BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "52741473",
       "date": "2026-06-15",
       "dispatched": "15 June 2026 12:54 pm",
       "destination": "Greenease Dispensaries - DREWVALE QLD",

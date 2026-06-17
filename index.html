@@ -398,8 +398,12 @@ async function fetchData() {
   document.getElementById('dropZone').classList.toggle('hidden', !isAdmin());
 }
 
+// Cached SHA from the last successful PUT — avoids stale GET responses from GitHub's CDN
+var knownDataSha = null;
+
 // Get SHA of existing data.json (needed for GitHub API update)
 async function getFileSha(branch) {
+  if (knownDataSha) return knownDataSha;
   var c = cfg();
   var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo + '/contents/data.json?ref=' + branch + '&t=' + Date.now(), {
     headers: { Authorization: 'Bearer ' + c.token, Accept: 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
@@ -426,13 +430,16 @@ async function pushData(data) {
     body: JSON.stringify(body)
   });
   if (!res.ok) {
+    knownDataSha = null;
     var err = await res.json().catch(function(){ return {}; });
     var msg = err.message || 'GitHub error ' + res.status;
     if (res.status === 401 || res.status === 403) msg = 'Token rejected — check your Personal Access Token in Settings.';
     if (res.status === 404) msg = 'Repository not found. Re-run Setup-GitHub.ps1 or check Settings.';
-    if (res.status === 422) msg = 'GitHub rejected the update (SHA conflict) — try refreshing the page and dropping the CSV again.';
+    if (res.status === 409 || res.status === 422) msg = 'SHA conflict — please refresh the page and try again.';
     throw new Error(msg);
   }
+  var result = await res.json().catch(function(){ return {}; });
+  knownDataSha = (result.content && result.content.sha) ? result.content.sha : null;
 }
 
 // CSV parsing

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T22:12:53.055Z",
+  "lastUpdated": "2026-06-17T22:44:07.159Z",
   "orders": [
     {
       "orderId": "4065",
@@ -3674,7 +3674,7 @@
     {
       "orderId": "4442",
       "shopifyRef": "#7357 - BODEGA",
-      "carrier": "-",
+      "carrier": "TCFCO",
       "tracking": "-",
       "date": "2026-06-16",
       "dispatched": "16 June 2026 12:09 pm",

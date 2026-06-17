@@ -406,7 +406,7 @@ async function getFileSha(branch) {
   if (knownDataSha) return knownDataSha;
   var c = cfg();
   var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo + '/contents/data.json?ref=' + branch + '&t=' + Date.now(), {
-    headers: { Authorization: 'Bearer ' + c.token, Accept: 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
+    headers: { Authorization: 'Bearer ' + c.token, Accept: 'application/vnd.github+json' }
   });
   if (res.status === 404) return null;
   if (res.status === 401 || res.status === 403) throw new Error('Token rejected — check your Personal Access Token in Settings.');

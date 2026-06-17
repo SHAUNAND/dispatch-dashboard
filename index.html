@@ -401,8 +401,8 @@ async function fetchData() {
 // Get SHA of existing data.json (needed for GitHub API update)
 async function getFileSha(branch) {
   var c = cfg();
-  var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo + '/contents/data.json?ref=' + branch, {
-    headers: { Authorization: 'Bearer ' + c.token, Accept: 'application/vnd.github+json' }
+  var res = await fetch('https://api.github.com/repos/' + c.owner + '/' + c.repo + '/contents/data.json?ref=' + branch + '&t=' + Date.now(), {
+    headers: { Authorization: 'Bearer ' + c.token, Accept: 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
   });
   if (res.status === 404) return null;
   if (res.status === 401 || res.status === 403) throw new Error('Token rejected — check your Personal Access Token in Settings.');

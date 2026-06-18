@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T22:44:16.543Z",
+  "lastUpdated": "2026-06-18T07:54:45.926Z",
   "orders": [
     {
       "orderId": "4065",
@@ -4079,6 +4079,286 @@
       "date": "",
       "dispatched": "",
       "destination": "Your Chemist Shop Loganholme - LOGANHOLME QLD",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4483",
+      "shopifyRef": "#7395",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052020",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 09:54 am",
+      "destination": "Ipswich Central Chempro Chemist - IPSWICH QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4485",
+      "shopifyRef": "#7393",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052024",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 09:15 am",
+      "destination": "Star Discount Chemist Narangba - NARANGBA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4486",
+      "shopifyRef": "#7392 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052022",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 09:19 am",
+      "destination": "Better Leaf Brunswick - BRUNSWICK VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4487",
+      "shopifyRef": "#7391 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052028",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 09:28 am",
+      "destination": "Amcal Pharmacy Aspley - ASPLEY QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4488",
+      "shopifyRef": "#7390 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052025",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 09:34 am",
+      "destination": "Capital Chemist Hamilton - HAMILTON NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4489",
+      "shopifyRef": "#7398 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052057",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 12:01 pm",
+      "destination": "Rays Wellness Melbourne - SOUTH MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4490",
+      "shopifyRef": "#7398 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 12:08 pm",
+      "destination": "Rays Wellness Melbourne | Specialty Wellness & Lifestyle Pharmacy - SOUTH MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4491",
+      "shopifyRef": "#7397 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052064",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 11:53 am",
+      "destination": "Healthwise Pharmacy Rockdale - ROCKDALE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4492",
+      "shopifyRef": "#7397 - ALL NATION",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 11:52 am",
+      "destination": "Healthwise Pharmacy Rockdale - ROCKDALE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4493",
+      "shopifyRef": "#7399 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052067",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 11:49 am",
+      "destination": "Chemist Warehouse Brisbane - The Barracks - PETRIE TERRACE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4494",
+      "shopifyRef": "#7399 - DANKRUPT",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 11:48 am",
+      "destination": "Chemist Warehouse Brisbane - The Barracks - PETRIE TERRACE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4495",
+      "shopifyRef": "#7400 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052065",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 11:45 am",
+      "destination": "Cambridge Compounding - FOOTSCRAY VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4496",
+      "shopifyRef": "#7401",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052066",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 11:40 am",
+      "destination": "Norwood Village Compounding Pharmacy - NORWOOD SA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4497",
+      "shopifyRef": "#7402 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052063",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 12:59 pm",
+      "destination": "Wholelife Pharmacy And Healthfoods Pease St - MANOORA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4498",
+      "shopifyRef": "#7402 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 12:42 pm",
+      "destination": "Wholelife Pharmacy And Healthfoods Pease St - MANOORA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4499",
+      "shopifyRef": "#7403 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052069",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 01:23 pm",
+      "destination": "Frankston Compounding Pharmacy - FRANKSTON VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4500",
+      "shopifyRef": "#7403 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 01:23 pm",
+      "destination": "Frankston Compounding Pharmacy - FRANKSTON VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4501",
+      "shopifyRef": "#7406 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052098",
+      "date": "2026-06-18",
+      "dispatched": "18 June 2026 03:16 pm",
+      "destination": "Ipswich Central Chempro Chemist - IPSWICH QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4502",
+      "shopifyRef": "#7405",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Plunkett's Terrywhite Chemmart Port Macquarie - PORT MACQUARIE NSW",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4503",
+      "shopifyRef": "#7407 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Florae Dispensary - PARRAMATTA NSW",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4504",
+      "shopifyRef": "#7407 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Florae Dispensary - PARRAMATTA NSW",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4505",
+      "shopifyRef": "#7408 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Chemist Warehouse Jindalee Home Shopping Centre - JINDALEE QLD",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4506",
+      "shopifyRef": "#7409",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Discount Drug Store - Gillieston Heights - GILLIESTON HEIGHTS NSW",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4507",
+      "shopifyRef": "#7410 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Chemist Warehouse Sandgate - SANDGATE QLD",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4508",
+      "shopifyRef": "#7412 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "La Feuille Pharmacy - Formerly Releaf Dispensary South Melbourne) - SOUTH MELBOURNE VIC",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4509",
+      "shopifyRef": "#7412 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "La Feuille Pharmacy - (formerly Releaf Dispensary South Melbourne) - SOUTH MELBOURNE VIC",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4510",
+      "shopifyRef": "#7411",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Total Holistic - GLEN IRIS VIC",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "4511",
+      "shopifyRef": "#7413",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Tom Lane Pharmacy Greensborough - GREENSBOROUGH VIC",
       "status": "Awaiting Pick and Pack"
     }
   ]

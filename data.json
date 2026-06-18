@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T22:18:49.621Z",
+  "lastUpdated": "2026-06-18T22:19:39.354Z",
   "orders": [
     {
       "orderId": "4065",
@@ -4264,102 +4264,102 @@
     {
       "orderId": "4502",
       "shopifyRef": "#7405",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052108",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 06:30 am",
       "destination": "Plunkett's Terrywhite Chemmart Port Macquarie - PORT MACQUARIE NSW",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4503",
       "shopifyRef": "#7407 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 06:41 am",
       "destination": "Florae Dispensary - PARRAMATTA NSW",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4504",
       "shopifyRef": "#7407 - SEC",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052109",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 06:43 am",
       "destination": "Florae Dispensary - PARRAMATTA NSW",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4505",
       "shopifyRef": "#7408 - SEC",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052110",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 06:57 am",
       "destination": "Chemist Warehouse Jindalee Home Shopping Centre - JINDALEE QLD",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4506",
       "shopifyRef": "#7409",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052111",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 07:03 am",
       "destination": "Discount Drug Store - Gillieston Heights - GILLIESTON HEIGHTS NSW",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4507",
       "shopifyRef": "#7410 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052112",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 07:12 am",
       "destination": "Chemist Warehouse Sandgate - SANDGATE QLD",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4508",
       "shopifyRef": "#7412 - SEC",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052113",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 07:17 am",
       "destination": "La Feuille Pharmacy - Formerly Releaf Dispensary South Melbourne) - SOUTH MELBOURNE VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4509",
       "shopifyRef": "#7412 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 07:19 am",
       "destination": "La Feuille Pharmacy - (formerly Releaf Dispensary South Melbourne) - SOUTH MELBOURNE VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4510",
       "shopifyRef": "#7411",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 07:30 am",
       "destination": "Total Holistic - GLEN IRIS VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4511",
       "shopifyRef": "#7413",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 07:46 am",
       "destination": "Tom Lane Pharmacy Greensborough - GREENSBOROUGH VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     }
   ]
 }

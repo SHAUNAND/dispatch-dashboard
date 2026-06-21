@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T03:47:48.267Z",
+  "lastUpdated": "2026-06-21T21:59:15.434Z",
   "orders": [
     {
       "orderId": "4065",
@@ -4496,70 +4496,120 @@
       "shopifyRef": "#7423 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:24 pm",
       "destination": "Cann Life Dispensary - FITZROY VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4526",
       "shopifyRef": "#7423 - SEC",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052194",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:24 pm",
       "destination": "Cann Life Dispensary - FITZROY VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4527",
       "shopifyRef": "#7426 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052195",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:20 pm",
       "destination": "Smith Street Soul Pattinson Chemist - COLLINGWOOD VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4528",
       "shopifyRef": "#7426 - SEC",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:20 pm",
       "destination": "Smith Street Soul Pattinson Chemist - COLLINGWOOD VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4529",
       "shopifyRef": "#7427",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052196",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:15 pm",
       "destination": "Carina Day & Night Pharmacy - CARINA QLD",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4530",
       "shopifyRef": "#7429 - SEC",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052193",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 02:56 pm",
       "destination": "Releaf St Kilda Clinic & Dispensary - ST KILDA VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "4531",
       "shopifyRef": "#7429 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 02:55 pm",
       "destination": "Releaf St Kilda Clinic & Dispensary - ST KILDA VIC",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4532",
+      "shopifyRef": "#7431",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052197",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 02:50 pm",
+      "destination": "Healthsmart Pharmacy Alfred - MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4533",
+      "shopifyRef": "#7432 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052200",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:04 pm",
+      "destination": "Medigreen Bentleigh - BENTLEIGH VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4534",
+      "shopifyRef": "#7432 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:04 pm",
+      "destination": "Medigreen Dispensary And Clinic - BENTLEIGH VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4535",
+      "shopifyRef": "#7433 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:12 pm",
+      "destination": "Chemist Warehouse Beenleigh - BEENLEIGH QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4536",
+      "shopifyRef": "#7433 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052198",
+      "date": "2026-06-19",
+      "dispatched": "19 June 2026 03:12 pm",
+      "destination": "Chemist Warehouse Beenleigh - BEENLEIGH QLD",
+      "status": "Dispatched"
     }
   ]
 }

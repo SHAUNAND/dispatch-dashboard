@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T04:56:52.369Z",
+  "lastUpdated": "2026-06-22T04:57:40.863Z",
   "orders": [
     {
       "orderId": "4065",
@@ -4724,8 +4724,8 @@
     {
       "orderId": "4548",
       "shopifyRef": "#7442 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53038295",
       "date": "2026-06-22",
       "dispatched": "22 June 2026 10:15 am",
       "destination": "Ace Pharmacy Bowen Hills - BOWEN HILLS QLD",

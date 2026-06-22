@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T04:55:28.123Z",
+  "lastUpdated": "2026-06-22T04:55:49.698Z",
   "orders": [
     {
       "orderId": "4065",
@@ -4844,8 +4844,8 @@
     {
       "orderId": "4560",
       "shopifyRef": "#7453-SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53039001",
       "date": "2026-06-22",
       "dispatched": "22 June 2026 01:33 pm",
       "destination": "Ace Pharmacy Bowen Hills - BOWEN HILLS QLD",

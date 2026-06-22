@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T04:59:36.855Z",
+  "lastUpdated": "2026-06-22T05:00:26.749Z",
   "orders": [
     {
       "orderId": "4065",
@@ -4594,8 +4594,8 @@
     {
       "orderId": "4535",
       "shopifyRef": "#7433 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53047939",
       "date": "2026-06-19",
       "dispatched": "19 June 2026 03:12 pm",
       "destination": "Chemist Warehouse Beenleigh - BEENLEIGH QLD",

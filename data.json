@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T04:58:05.093Z",
+  "lastUpdated": "2026-06-22T04:58:45.894Z",
   "orders": [
     {
       "orderId": "4065",
@@ -4714,8 +4714,8 @@
     {
       "orderId": "4547",
       "shopifyRef": "#7437 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53036581",
       "date": "2026-06-22",
       "dispatched": "22 June 2026 09:56 am",
       "destination": "Ace Pharmacy Warner - WARNER QLD",

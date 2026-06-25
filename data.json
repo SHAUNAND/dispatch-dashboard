@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T02:34:44.981Z",
+  "lastUpdated": "2026-06-25T05:29:02.480Z",
   "orders": [
     {
       "orderId": "4065",
@@ -5674,8 +5674,8 @@
     {
       "orderId": "4638",
       "shopifyRef": "ICK RTN to TEE post extension",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052657",
       "date": "2026-06-25",
       "dispatched": "25 June 2026 11:48 am",
       "destination": "The Entourage Effect - GREENACRE NSW",
@@ -5684,8 +5684,8 @@
     {
       "orderId": "4639",
       "shopifyRef": "#7518 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052666",
       "date": "2026-06-25",
       "dispatched": "25 June 2026 11:52 am",
       "destination": "Smith Street Soul Pattinson Chemist - COLLINGWOOD VIC",
@@ -5704,11 +5704,91 @@
     {
       "orderId": "4641",
       "shopifyRef": "#7519",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052664",
       "date": "2026-06-25",
       "dispatched": "25 June 2026 11:53 am",
       "destination": "Prospect Compounding Pharmacy - WENDOUREE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4642",
+      "shopifyRef": "#7520",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052674",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 01:00 pm",
+      "destination": "In2health Pharmacy Mt Annan - MOUNT ANNAN NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4643",
+      "shopifyRef": "#7521 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052681",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 01:08 pm",
+      "destination": "Chemist Warehouse Caboolture - Big Fish Junction - CABOOLTURE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4644",
+      "shopifyRef": "#7523 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 02:11 pm",
+      "destination": "Rays Wellness Melbourne | Specialty Wellness & Lifestyle Pharmacy - SOUTH MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4645",
+      "shopifyRef": "#7523 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052704",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 02:26 pm",
+      "destination": "Rays Wellness Melbourne - SOUTH MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4646",
+      "shopifyRef": "#7523 - ALL NATION",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 02:27 pm",
+      "destination": "Rays Wellness Melbourne | Specialty Wellness & Lifestyle Pharmacy - SOUTH MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4647",
+      "shopifyRef": "#7525 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052695",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 02:00 pm",
+      "destination": "Nerang Centre Chempro Chemist - NERANG QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4648",
+      "shopifyRef": "#7526 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 01:55 pm",
+      "destination": "United Chemists Mount Louisa - MOUNT LOUISA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "4649",
+      "shopifyRef": "#7526 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50052692",
+      "date": "2026-06-25",
+      "dispatched": "25 June 2026 01:54 pm",
+      "destination": "United Chemists Mount Louisa - MOUNT LOUISA QLD",
       "status": "Dispatched"
     }
   ]

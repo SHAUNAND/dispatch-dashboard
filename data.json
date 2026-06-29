@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T04:41:18.433Z",
+  "lastUpdated": "2026-06-29T04:41:53.996Z",
   "orders": [
     {
       "orderId": "4065",
@@ -5954,8 +5954,8 @@
     {
       "orderId": "4668",
       "shopifyRef": "#7550 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53348981",
       "date": "2026-06-29",
       "dispatched": "29 June 2026 10:05 am",
       "destination": "Chemist Warehouse Brisbane - The Barracks - PETRIE TERRACE QLD",

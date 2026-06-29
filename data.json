@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T04:43:15.387Z",
+  "lastUpdated": "2026-06-29T04:43:42.824Z",
   "orders": [
     {
       "orderId": "4065",
@@ -6204,8 +6204,8 @@
     {
       "orderId": "4693",
       "shopifyRef": "#7559 - DANKRUPT",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53348572",
       "date": "2026-06-29",
       "dispatched": "29 June 2026 12:57 pm",
       "destination": "Ipswich Central Chempro Chemist - IPSWICH QLD",

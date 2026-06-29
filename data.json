@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T04:42:15.633Z",
+  "lastUpdated": "2026-06-29T04:42:35.543Z",
   "orders": [
     {
       "orderId": "4065",
@@ -5984,8 +5984,8 @@
     {
       "orderId": "4671",
       "shopifyRef": "#7546 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53348402",
       "date": "2026-06-29",
       "dispatched": "29 June 2026 10:10 am",
       "destination": "Woodridge Parklands Plaza Chempro Chemist - WOODRIDGE QLD",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T04:42:45.103Z",
+  "lastUpdated": "2026-06-29T04:43:15.387Z",
   "orders": [
     {
       "orderId": "4065",
@@ -6044,8 +6044,8 @@
     {
       "orderId": "4677",
       "shopifyRef": "#7544 - RE-UP",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53349159",
       "date": "2026-06-29",
       "dispatched": "29 June 2026 10:19 am",
       "destination": "Chemist Warehouse Inala Plaza Shopping Centre - INALA QLD",

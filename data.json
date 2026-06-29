@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T04:41:53.996Z",
+  "lastUpdated": "2026-06-29T04:42:15.633Z",
   "orders": [
     {
       "orderId": "4065",
@@ -5974,8 +5974,8 @@
     {
       "orderId": "4670",
       "shopifyRef": "#7548 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53348755",
       "date": "2026-06-29",
       "dispatched": "29 June 2026 10:01 am",
       "destination": "Ipswich Central Chempro Chemist - IPSWICH QLD",

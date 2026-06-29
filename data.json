@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T04:44:03.745Z",
+  "lastUpdated": "2026-06-29T04:44:22.956Z",
   "orders": [
     {
       "orderId": "4065",
@@ -6244,8 +6244,8 @@
     {
       "orderId": "4697",
       "shopifyRef": "Transfer to Peddler SYD",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "53350280",
       "date": "2026-06-29",
       "dispatched": "29 June 2026 02:14 pm",
       "destination": "Peddler Distribution - NSW",

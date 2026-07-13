@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T05:07:42.244Z",
+  "lastUpdated": "2026-07-13T05:08:47.701Z",
   "orders": [
     {
       "orderId": "4065",
@@ -9424,8 +9424,8 @@
     {
       "orderId": "5022",
       "shopifyRef": "#7814-BODEGA",
-      "carrier": "Dir Couriers",
-      "tracking": "53920673",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 08:58 am",
       "destination": "Smith Collective Amcal Pharmacy And Lotto - SOUTHPORT QLD",
@@ -9544,8 +9544,8 @@
     {
       "orderId": "5036",
       "shopifyRef": "#7825-SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "53921675",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 09:17 am",
       "destination": "Chemist Warehouse Brisbane - The Barracks - PETRIE TERRACE QLD",
@@ -9574,8 +9574,8 @@
     {
       "orderId": "5039",
       "shopifyRef": "#7828-SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "53923503",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 09:53 am",
       "destination": "Woodridge Parklands Plaza Chempro Chemist - WOODRIDGE QLD",
@@ -9654,8 +9654,8 @@
     {
       "orderId": "5047",
       "shopifyRef": "#7834-DANKRUPT",
-      "carrier": "Dir Couriers",
-      "tracking": "53933028",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 11:10 am",
       "destination": "Carina Day & Night Pharmacy - CARINA QLD",
@@ -9714,8 +9714,8 @@
     {
       "orderId": "5053",
       "shopifyRef": "#7837-SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "53932006",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 11:35 am",
       "destination": "Surfers Paradise Chempro Chemist - SURFERS PARADISE QLD",
@@ -9804,8 +9804,8 @@
     {
       "orderId": "5062",
       "shopifyRef": "#7845-SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "53943905",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 01:11 pm",
       "destination": "Amcal Pharmacy Aspley - ASPLEY QLD",
@@ -9824,8 +9824,8 @@
     {
       "orderId": "5064",
       "shopifyRef": "#7847-SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "53949186",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 01:16 pm",
       "destination": "Chemist Warehouse Crestmead - CRESTMEAD QLD",
@@ -9834,8 +9834,8 @@
     {
       "orderId": "5065",
       "shopifyRef": "#7848-SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50055100",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 01:49 pm",
       "destination": "Nexgen Pharma Compounding Pharmacy - CASTLE HILL NSW",
@@ -9854,8 +9854,8 @@
     {
       "orderId": "5067",
       "shopifyRef": "#7849-BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50055101",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 01:53 pm",
       "destination": "Florae Dispensary - PARRAMATTA NSW",
@@ -9874,8 +9874,8 @@
     {
       "orderId": "5069",
       "shopifyRef": "#7850-SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50055109",
       "date": "2026-07-13",
       "dispatched": "13 July 2026 02:10 pm",
       "destination": "The Saint Dispensary - ST KILDA VIC",
@@ -9909,7 +9909,57 @@
       "date": "",
       "dispatched": "",
       "destination": "Cannabloom Specialty Dispensary - PASCOE VALE SOUTH VIC",
-      "status": "Draft"
+      "status": "Picking In Progress"
+    },
+    {
+      "orderId": "5073",
+      "shopifyRef": "#7851-BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-07-13",
+      "dispatched": "13 July 2026 03:01 pm",
+      "destination": "Cannabloom Specialty Dispensary - PASCOE VALE SOUTH VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "5074",
+      "shopifyRef": "#7851-HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Cannabloom Specialty Dispensary - PASCOE VALE SOUTH VIC",
+      "status": "Awaiting Pick and Pack"
+    },
+    {
+      "orderId": "5075",
+      "shopifyRef": "#7852-SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-07-13",
+      "dispatched": "13 July 2026 03:00 pm",
+      "destination": "Chemist Warehouse Crestmead - CRESTMEAD QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "5076",
+      "shopifyRef": "#7852-BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-07-13",
+      "dispatched": "13 July 2026 02:59 pm",
+      "destination": "Chemist Warehouse Crestmead - CRESTMEAD QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "5077",
+      "shopifyRef": "#7853-BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Wholelife Pharmacy And Healthfoods Barr St - EARLVILLE QLD",
+      "status": "Awaiting Pick and Pack"
     }
   ]
 }

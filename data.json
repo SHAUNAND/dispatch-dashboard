@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T04:03:10.447Z",
+  "lastUpdated": "2026-07-20T04:03:31.195Z",
   "orders": [
     {
       "orderId": "4065",
@@ -11414,8 +11414,8 @@
     {
       "orderId": "5226",
       "shopifyRef": "#7964 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "54244587",
       "date": "2026-07-20",
       "dispatched": "20 July 2026 10:25 am",
       "destination": "Chemist Warehouse Beenleigh - BEENLEIGH QLD",

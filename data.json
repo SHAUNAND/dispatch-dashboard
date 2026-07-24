@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T04:16:02.091Z",
+  "lastUpdated": "2026-07-24T05:10:29.748Z",
   "orders": [
     {
       "orderId": "4065",
@@ -13176,20 +13176,20 @@
       "shopifyRef": "#8074 - SEC",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-07-24",
+      "dispatched": "24 July 2026 02:19 pm",
       "destination": "Rays Wellness Dispensary - FORTITUDE VALLEY QLD",
-      "status": "Picking In Progress"
+      "status": "Dispatched"
     },
     {
       "orderId": "5411",
       "shopifyRef": "#8074 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-07-24",
+      "dispatched": "24 July 2026 02:33 pm",
       "destination": "Rays Wellness | Specialty Wellness & Lifestyle Pharmacy - FORTITUDE VALLEY QLD",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "5412",
@@ -13206,10 +13206,10 @@
       "shopifyRef": "#8075 - HOWDY",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-07-24",
+      "dispatched": "24 July 2026 03:08 pm",
       "destination": "Surfers Paradise Chempro Chemist - SURFERS PARADISE QLD",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     }
   ]
 }

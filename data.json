@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T05:02:30.277Z",
+  "lastUpdated": "2026-07-27T05:03:23.049Z",
   "orders": [
     {
       "orderId": "4065",
@@ -13414,8 +13414,8 @@
     {
       "orderId": "5434",
       "shopifyRef": "#8089-SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "54561462",
       "date": "2026-07-27",
       "dispatched": "27 July 2026 09:10 am",
       "destination": "Chemist Warehouse Browns Plains Homemaker Centre - BROWNS PLAINS QLD",

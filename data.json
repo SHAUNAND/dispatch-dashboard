@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T04:59:34.629Z",
+  "lastUpdated": "2026-08-03T04:59:56.316Z",
   "orders": [
     {
       "orderId": "4065",
@@ -15094,8 +15094,8 @@
     {
       "orderId": "5610",
       "shopifyRef": "#8218 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "54865686",
       "date": "2026-08-03",
       "dispatched": "03 Aug 2026 08:38 am",
       "destination": "Durack Drive Thru Chempro Chemist - DURACK QLD",

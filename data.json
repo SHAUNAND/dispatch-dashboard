@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T04:15:28.464Z",
+  "lastUpdated": "2026-08-10T04:15:54.264Z",
   "orders": [
     {
       "orderId": "4065",
@@ -17154,8 +17154,8 @@
     {
       "orderId": "5818",
       "shopifyRef": "#8346 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55148120",
       "date": "2026-08-10",
       "dispatched": "10 Aug 2026 08:26 am",
       "destination": "Rays Wellness Dispensary - FORTITUDE VALLEY QLD",

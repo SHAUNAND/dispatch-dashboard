@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T04:16:31.088Z",
+  "lastUpdated": "2026-08-10T04:16:52.022Z",
   "orders": [
     {
       "orderId": "4065",
@@ -17194,8 +17194,8 @@
     {
       "orderId": "5823",
       "shopifyRef": "#8372 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55148358",
       "date": "2026-08-10",
       "dispatched": "10 Aug 2026 08:31 am",
       "destination": "Chemist Warehouse Browns Plains Homemaker Centre - BROWNS PLAINS QLD",

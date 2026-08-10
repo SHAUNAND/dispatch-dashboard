@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T04:16:52.022Z",
+  "lastUpdated": "2026-08-10T04:17:10.887Z",
   "orders": [
     {
       "orderId": "4065",
@@ -17204,8 +17204,8 @@
     {
       "orderId": "5824",
       "shopifyRef": "#8371 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55148271",
       "date": "2026-08-10",
       "dispatched": "10 Aug 2026 08:56 am",
       "destination": "Chemist Warehouse Caboolture - CABOOLTURE QLD",

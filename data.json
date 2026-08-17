@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:13:44.501Z",
+  "lastUpdated": "2026-08-17T05:14:02.756Z",
   "orders": [
     {
       "orderId": "4065",
@@ -19204,8 +19204,8 @@
     {
       "orderId": "6027",
       "shopifyRef": "TEE Transfer Aug 2026 - INV-3216 (SEC) PO-175786",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55451710",
       "date": "2026-08-17",
       "dispatched": "17 Aug 2026 08:40 am",
       "destination": "The Entourage Effect - GREENACRE NSW",

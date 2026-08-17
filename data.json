@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:15:05.491Z",
+  "lastUpdated": "2026-08-17T05:15:27.781Z",
   "orders": [
     {
       "orderId": "4065",
@@ -19294,8 +19294,8 @@
     {
       "orderId": "6036",
       "shopifyRef": "#8515-HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55451958",
       "date": "2026-08-17",
       "dispatched": "17 Aug 2026 09:41 am",
       "destination": "Chemist Warehouse Redcliffe - REDCLIFFE QLD",

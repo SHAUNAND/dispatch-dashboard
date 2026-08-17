@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:20:16.938Z",
+  "lastUpdated": "2026-08-17T05:20:25.937Z",
   "orders": [
     {
       "orderId": "4065",
@@ -19124,7 +19124,7 @@
     {
       "orderId": "6019",
       "shopifyRef": "#8497 - BODEGA",
-      "carrier": "-",
+      "carrier": "Dir Couriers",
       "tracking": "-",
       "date": "2026-08-14",
       "dispatched": "14 Aug 2026 01:15 pm",

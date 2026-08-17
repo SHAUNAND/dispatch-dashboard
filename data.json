@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:15:27.781Z",
+  "lastUpdated": "2026-08-17T05:15:57.808Z",
   "orders": [
     {
       "orderId": "4065",
@@ -19314,8 +19314,8 @@
     {
       "orderId": "6038",
       "shopifyRef": "#8513-DANKRUPT",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55454175",
       "date": "2026-08-17",
       "dispatched": "17 Aug 2026 09:11 am",
       "destination": "Chemist Warehouse Beenleigh - BEENLEIGH QLD",

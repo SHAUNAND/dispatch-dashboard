@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:17:41.860Z",
+  "lastUpdated": "2026-08-17T05:20:04.031Z",
   "orders": [
     {
       "orderId": "4065",
@@ -19104,8 +19104,8 @@
     {
       "orderId": "6017",
       "shopifyRef": "#8497 - ALL NATION",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55449924",
       "date": "2026-08-14",
       "dispatched": "14 Aug 2026 12:52 pm",
       "destination": "Rays Wellness | Specialty Wellness & Lifestyle Pharmacy - FORTITUDE VALLEY QLD",

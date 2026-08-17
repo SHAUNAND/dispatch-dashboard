@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:13:09.057Z",
+  "lastUpdated": "2026-08-17T05:13:44.501Z",
   "orders": [
     {
       "orderId": "4065",
@@ -19194,8 +19194,8 @@
     {
       "orderId": "6026",
       "shopifyRef": "Transfer to NSW 17 Aug 26",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55466262",
       "date": "2026-08-17",
       "dispatched": "17 Aug 2026 11:12 am",
       "destination": "Peddler Distribution - NSW",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T05:16:41.190Z",
+  "lastUpdated": "2026-08-17T05:17:11.778Z",
   "orders": [
     {
       "orderId": "4065",
@@ -19424,8 +19424,8 @@
     {
       "orderId": "6049",
       "shopifyRef": "#8506 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55455033",
       "date": "2026-08-17",
       "dispatched": "17 Aug 2026 10:04 am",
       "destination": "100 Health Pharmacy - ROBINA QLD",

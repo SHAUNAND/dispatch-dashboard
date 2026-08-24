@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:20:40.063Z",
+  "lastUpdated": "2026-08-24T04:21:00.605Z",
   "orders": [
     {
       "orderId": "3050",
@@ -31254,8 +31254,8 @@
     {
       "orderId": "6242",
       "shopifyRef": "#8659 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55826265",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:47 am",
       "destination": "Chemist Warehouse Aspley Homemaker City - ASPLEY QLD",

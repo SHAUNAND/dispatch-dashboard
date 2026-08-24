@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:23:04.901Z",
+  "lastUpdated": "2026-08-24T04:24:32.843Z",
   "orders": [
     {
       "orderId": "3050",
@@ -31424,8 +31424,8 @@
     {
       "orderId": "6260",
       "shopifyRef": "#8647 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "55830885",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 09:43 am",
       "destination": "Direct Chemist Outlet Monier - DARRA QLD",

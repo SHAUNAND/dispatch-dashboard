@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T03:54:04.001Z",
+  "lastUpdated": "2026-08-25T03:54:26.284Z",
   "orders": [
     {
       "orderId": "3050",
@@ -31804,8 +31804,8 @@
     {
       "orderId": "6300",
       "shopifyRef": "#8689 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "TCFCO",
+      "tracking": "Shaun",
       "date": "2026-08-25",
       "dispatched": "25 Aug 2026 01:13 pm",
       "destination": "Wholelife Pharmacy And Healthfoods Maroochydore - MAROOCHYDORE QLD",

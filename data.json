@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T03:53:27.458Z",
+  "lastUpdated": "2026-08-25T03:54:04.001Z",
   "orders": [
     {
       "orderId": "3050",
@@ -31224,8 +31224,8 @@
     {
       "orderId": "6239",
       "shopifyRef": "#8662 - SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "55834577",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:33 am",
       "destination": "Chemist Warehouse Browns Plains Homemaker Centre - BROWNS PLAINS QLD",
@@ -31234,8 +31234,8 @@
     {
       "orderId": "6240",
       "shopifyRef": "#8661 - BODEGA",
-      "carrier": "Dir Couriers",
-      "tracking": "55826028",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:40 am",
       "destination": "Chemist Warehouse Jindalee Home Shopping Centre - JINDALEE QLD",
@@ -31244,8 +31244,8 @@
     {
       "orderId": "6241",
       "shopifyRef": "#8660 - SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "55833826",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:38 am",
       "destination": "Dispense Direct Pharmacy Pty Ltd - ACACIA RIDGE QLD",
@@ -31254,8 +31254,8 @@
     {
       "orderId": "6242",
       "shopifyRef": "#8659 - SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "55826265",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:47 am",
       "destination": "Chemist Warehouse Aspley Homemaker City - ASPLEY QLD",
@@ -31264,8 +31264,8 @@
     {
       "orderId": "6243",
       "shopifyRef": "#8658 - BODEGA",
-      "carrier": "Dir Couriers",
-      "tracking": "55825823",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:53 am",
       "destination": "Smith Collective Amcal Pharmacy And Lotto - SOUTHPORT QLD",
@@ -31304,8 +31304,8 @@
     {
       "orderId": "6247",
       "shopifyRef": "#8654 - SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "55832468",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:58 am",
       "destination": "Surfers Paradise Chempro Chemist - SURFERS PARADISE QLD",
@@ -31314,7 +31314,7 @@
     {
       "orderId": "6248",
       "shopifyRef": "#8654 - BODEGA",
-      "carrier": "Dir Couriers",
+      "carrier": "-",
       "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 08:57 am",
@@ -31384,8 +31384,8 @@
     {
       "orderId": "6256",
       "shopifyRef": "#8650 - HOWDY",
-      "carrier": "Dir Couriers",
-      "tracking": "55830147",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 09:29 am",
       "destination": "Essence Dispensary - CARINA QLD",
@@ -31394,7 +31394,7 @@
     {
       "orderId": "6257",
       "shopifyRef": "#8650 - DANKRUPT",
-      "carrier": "Dir Couriers",
+      "carrier": "-",
       "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 09:28 am",
@@ -31424,8 +31424,8 @@
     {
       "orderId": "6260",
       "shopifyRef": "#8647 - BODEGA",
-      "carrier": "Dir Couriers",
-      "tracking": "55830885",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 09:43 am",
       "destination": "Direct Chemist Outlet Monier - DARRA QLD",
@@ -31444,8 +31444,8 @@
     {
       "orderId": "6262",
       "shopifyRef": "#8645 - SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "55825823",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 10:02 am",
       "destination": "Smith Collective Amcal Pharmacy - SOUTHPORT QLD",
@@ -31474,8 +31474,8 @@
     {
       "orderId": "6265",
       "shopifyRef": "#8656 - SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "55835236",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 10:31 am",
       "destination": "Chemist Warehouse Crestmead - CRESTMEAD QLD",
@@ -31524,8 +31524,8 @@
     {
       "orderId": "6270",
       "shopifyRef": "#8667 - SEC",
-      "carrier": "Dir Couriers",
-      "tracking": "55842367",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 11:22 am",
       "destination": "Keperra Chempro Chemist - KEPERRA QLD",
@@ -31534,7 +31534,7 @@
     {
       "orderId": "6271",
       "shopifyRef": "#8669 - ALL NATION",
-      "carrier": "Dir Couriers",
+      "carrier": "-",
       "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 12:34 pm",
@@ -31584,8 +31584,8 @@
     {
       "orderId": "6276",
       "shopifyRef": "#8673 - BODEGA",
-      "carrier": "Dir Couriers",
-      "tracking": "55856180",
+      "carrier": "-",
+      "tracking": "-",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 01:00 pm",
       "destination": "Chemist Warehouse Morayfield - MORAYFIELD QLD",
@@ -31614,11 +31614,41 @@
     {
       "orderId": "6279",
       "shopifyRef": "#8675 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50065114",
       "date": "2026-08-24",
       "dispatched": "24 Aug 2026 02:14 pm",
       "destination": "Tablelands Discount Drug Store - ATHERTON QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "6280",
+      "shopifyRef": "#8676 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50065233",
+      "date": "2026-08-24",
+      "dispatched": "24 Aug 2026 02:58 pm",
+      "destination": "Chemist Warehouse Charlestown - CHARLESTOWN NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "6281",
+      "shopifyRef": "#8677 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50065232",
+      "date": "2026-08-24",
+      "dispatched": "24 Aug 2026 03:06 pm",
+      "destination": "Terrywhite Chemmart Sans Souci - SANS SOUCI NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "6283",
+      "shopifyRef": "#8678 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50065353",
+      "date": "2026-08-25",
+      "dispatched": "25 Aug 2026 08:42 am",
+      "destination": "Florae Dispensary - PARRAMATTA NSW",
       "status": "Dispatched"
     },
     {

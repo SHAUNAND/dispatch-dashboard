@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T05:10:01.343Z",
+  "lastUpdated": "2026-08-31T05:10:18.464Z",
   "orders": [
     {
       "orderId": "3050",
@@ -33224,8 +33224,8 @@
     {
       "orderId": "6449",
       "shopifyRef": "#8779 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "56352710",
       "date": "2026-08-31",
       "dispatched": "31 Aug 2026 09:12 am",
       "destination": "Chemist Warehouse Redcliffe - REDCLIFFE QLD",

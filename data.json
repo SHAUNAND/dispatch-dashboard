@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T05:12:35.777Z",
+  "lastUpdated": "2026-08-31T05:12:57.861Z",
   "orders": [
     {
       "orderId": "3050",
@@ -33434,8 +33434,8 @@
     {
       "orderId": "6470",
       "shopifyRef": "#8798 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "56365465",
       "date": "2026-08-31",
       "dispatched": "31 Aug 2026 12:03 pm",
       "destination": "Chemist Warehouse Brisbane - The Barracks - PETRIE TERRACE QLD",

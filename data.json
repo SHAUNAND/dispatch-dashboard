@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T05:09:03.727Z",
+  "lastUpdated": "2026-08-31T05:09:32.458Z",
   "orders": [
     {
       "orderId": "3050",
@@ -33194,8 +33194,8 @@
     {
       "orderId": "6446",
       "shopifyRef": "#8782 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "56350755",
       "date": "2026-08-31",
       "dispatched": "31 Aug 2026 08:43 am",
       "destination": "Chemist Warehouse Sunnybank Plaza - SUNNYBANK QLD",

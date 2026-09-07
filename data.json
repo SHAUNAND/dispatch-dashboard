@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T04:39:03.736Z",
+  "lastUpdated": "2026-09-07T04:39:26.435Z",
   "orders": [
     {
       "orderId": "3050",
@@ -35794,8 +35794,8 @@
     {
       "orderId": "6708",
       "shopifyRef": "#8958 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "56730560",
       "date": "2026-09-07",
       "dispatched": "07 Sept 2026 09:08 am",
       "destination": "Chemist Warehouse Crestmead - CRESTMEAD QLD",

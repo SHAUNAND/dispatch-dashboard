@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T04:07:20.301Z",
+  "lastUpdated": "2026-09-14T04:08:00.750Z",
   "orders": [
     {
       "orderId": "3050",
@@ -37074,8 +37074,8 @@
     {
       "orderId": "6877",
       "shopifyRef": "#9064 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "57079441",
       "date": "2026-09-14",
       "dispatched": "14 Sept 2026 08:28 am",
       "destination": "Terry White Chemmart Queen Street Village - SOUTHPORT QLD",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T04:08:38.090Z",
+  "lastUpdated": "2026-09-14T04:09:27.193Z",
   "orders": [
     {
       "orderId": "3050",
@@ -37274,8 +37274,8 @@
     {
       "orderId": "6897",
       "shopifyRef": "#9081 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "57085417",
       "date": "2026-09-14",
       "dispatched": "14 Sept 2026 10:18 am",
       "destination": "Chemist Warehouse Crestmead - CRESTMEAD QLD",

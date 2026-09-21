@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T04:42:41.977Z",
+  "lastUpdated": "2026-09-21T04:43:08.503Z",
   "orders": [
     {
       "orderId": "3050",
@@ -39204,8 +39204,8 @@
     {
       "orderId": "7093",
       "shopifyRef": "#9206 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "57439701",
       "date": "2026-09-21",
       "dispatched": "21 Sept 2026 10:40 am",
       "destination": "Chemist Warehouse Beenleigh - River Road - BEENLEIGH QLD",

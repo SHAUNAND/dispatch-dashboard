@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T06:05:55.316Z",
+  "lastUpdated": "2026-10-02T04:05:40.649Z",
   "orders": [
     {
       "orderId": "3050",
@@ -42244,8 +42244,8 @@
     {
       "orderId": "7421",
       "shopifyRef": "#9416 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078772",
       "date": "2026-10-01",
       "dispatched": "01 Oct 2026 03:14 pm",
       "destination": "Montague's Pharmacy - MORWELL VIC",
@@ -42254,8 +42254,8 @@
     {
       "orderId": "7422",
       "shopifyRef": "#9417 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078775",
       "date": "2026-10-01",
       "dispatched": "01 Oct 2026 03:22 pm",
       "destination": "Capital Chemist Dapto - DAPTO NSW",
@@ -42264,8 +42264,8 @@
     {
       "orderId": "7423",
       "shopifyRef": "#9418 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078773",
       "date": "2026-10-01",
       "dispatched": "01 Oct 2026 03:36 pm",
       "destination": "Wildleaf Dispensary Cairns - CAIRNS CITY QLD",
@@ -42274,8 +42274,8 @@
     {
       "orderId": "7424",
       "shopifyRef": "#9419 - BODEGA  2/2",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078774",
       "date": "2026-10-01",
       "dispatched": "01 Oct 2026 03:25 pm",
       "destination": "Canwell Dispensary - MORLEY WA",
@@ -42284,8 +42284,8 @@
     {
       "orderId": "7425",
       "shopifyRef": "#9420 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078765",
       "date": "2026-10-01",
       "dispatched": "01 Oct 2026 03:34 pm",
       "destination": "Tablelands Discount Drug Store - ATHERTON QLD",
@@ -42294,61 +42294,311 @@
     {
       "orderId": "7426",
       "shopifyRef": "#9421 - SEC",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078841",
+      "date": "2026-10-01",
+      "dispatched": "01 Oct 2026 04:23 pm",
       "destination": "Keperra Chempro Chemist - KEPERRA QLD",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "7427",
       "shopifyRef": "#9421 - HOWDY",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-10-01",
+      "dispatched": "01 Oct 2026 04:22 pm",
       "destination": "Keperra Chempro Chemist - KEPERRA QLD",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "7428",
       "shopifyRef": "#9422 - SEC",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078845",
+      "date": "2026-10-01",
+      "dispatched": "01 Oct 2026 04:16 pm",
       "destination": "Capital Chemist Hamilton - HAMILTON NSW",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "7429",
       "shopifyRef": "#9422 - BODEGA",
       "carrier": "-",
       "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "date": "2026-10-01",
+      "dispatched": "01 Oct 2026 04:18 pm",
       "destination": "Capital Chemist Hamilton - HAMILTON NSW",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "7430",
       "shopifyRef": "#9423 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
-      "date": "",
-      "dispatched": "",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078843",
+      "date": "2026-10-01",
+      "dispatched": "01 Oct 2026 04:14 pm",
       "destination": "Terrywhite Chemmart Lindisfarne Medical - LINDISFARNE TAS",
-      "status": "Awaiting Pick and Pack"
+      "status": "Dispatched"
     },
     {
       "orderId": "7431",
       "shopifyRef": "#9424 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078844",
+      "date": "2026-10-01",
+      "dispatched": "01 Oct 2026 04:14 pm",
+      "destination": "Pharmacy 777 Tambrey - NICKOL WA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7432",
+      "shopifyRef": "#9425 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078984",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:04 am",
+      "destination": "Plant Pharm - MALAGA WA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7433",
+      "shopifyRef": "#9426 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078986",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:12 am",
+      "destination": "Punchbowl Pharmacy Warehouse - PUNCHBOWL NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7434",
+      "shopifyRef": "#9426 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:11 am",
+      "destination": "Punchbowl Pharmacy Warehouse - PUNCHBOWL NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7435",
+      "shopifyRef": "#9427 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078985",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:09 am",
+      "destination": "Star Discount Chemist North Ward - NORTH WARD QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7436",
+      "shopifyRef": "#9428 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:17 am",
+      "destination": "Medwest Medical Dispensary - WESTMINSTER WA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7437",
+      "shopifyRef": "#9428 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078983",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:18 am",
+      "destination": "Medwest Dispensary Westminster - WESTMINSTER WA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7438",
+      "shopifyRef": "#9429 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078982",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:23 am",
+      "destination": "Direct Chemist Outlet Cranbourne West - CRANBOURNE WEST VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7439",
+      "shopifyRef": "#9429 - HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:24 am",
+      "destination": "Direct Chemist Outlet Cranbourne West - CRANBOURNE WEST VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7440",
+      "shopifyRef": "#9429 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:24 am",
+      "destination": "Direct Chemist Outlet Cranbourne West - CRANBOURNE WEST VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7441",
+      "shopifyRef": "#9430 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50078981",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:38 am",
+      "destination": "Chemist Warehouse Caboolture - CABOOLTURE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7442",
+      "shopifyRef": "#9430 - DANKRUPT",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 09:38 am",
+      "destination": "Chemist Warehouse Caboolture - CABOOLTURE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7443",
+      "shopifyRef": "#9431 - HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 10:54 am",
+      "destination": "Jhgh Medical Enterprises Pty Ltd - GLEN IRIS VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7444",
+      "shopifyRef": "#9431 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 10:55 am",
+      "destination": "Jhgh Medical Enterprises Pty Ltd - GLEN IRIS VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7445",
+      "shopifyRef": "#9431 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50079058",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 11:30 am",
+      "destination": "Jhgh Medical Enterprises Pty Ltd - GLEN IRIS VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7446",
+      "shopifyRef": "#9432 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50079092",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 11:54 am",
+      "destination": "Healthwise Pharmacy Rockdale - ROCKDALE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7448",
+      "shopifyRef": "#9432 - ALL NATIONS",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 11:52 am",
+      "destination": "Healthwise Pharmacy Rockdale - ROCKDALE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7449",
+      "shopifyRef": "#9433 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50079060",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 11:48 am",
+      "destination": "Smith Street Soul Pattinson Chemist - COLLINGWOOD VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7450",
+      "shopifyRef": "#9434 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 12:35 pm",
+      "destination": "Blaxland Day N Night Pharmacy - BLAXLAND NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7451",
+      "shopifyRef": "#9434 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50079118",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 12:36 pm",
+      "destination": "Blaxland Day N Night Pharmacy - BLAXLAND NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7452",
+      "shopifyRef": "#9435 - HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 12:44 pm",
+      "destination": "United Chemists Mount Louisa - MOUNT LOUISA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7453",
+      "shopifyRef": "#9435 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50079144",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 12:48 pm",
+      "destination": "United Chemists Mount Louisa - MOUNT LOUISA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7454",
+      "shopifyRef": "#9436 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50079147",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 12:56 pm",
+      "destination": "Canwell Dispensary - MORLEY WA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7455",
+      "shopifyRef": "#9437 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50079151",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 01:14 pm",
+      "destination": "The Saint Dispensary - ST KILDA VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7456",
+      "shopifyRef": "#9437 - HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-10-02",
+      "dispatched": "02 Oct 2026 01:14 pm",
+      "destination": "The Saint Dispensary & Compounding Pharmacy - ST KILDA VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "7457",
+      "shopifyRef": "#9438 - BODEGA",
       "carrier": "-",
       "tracking": "-",
       "date": "",
       "dispatched": "",
-      "destination": "Pharmacy 777 Tambrey - NICKOL WA",
+      "destination": "K-leaf Dispensary - WERRIBEE VIC",
       "status": "Awaiting Pick and Pack"
     }
   ]

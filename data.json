@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T04:17:36.471Z",
+  "lastUpdated": "2026-10-06T04:20:41.840Z",
   "orders": [
     {
       "orderId": "3050",
@@ -42744,8 +42744,8 @@
     {
       "orderId": "7472",
       "shopifyRef": "#9463 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58183982",
       "date": "2026-10-06",
       "dispatched": "06 Oct 2026 08:37 am",
       "destination": "Carina Day & Night Pharmacy - CARINA QLD",

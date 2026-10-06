@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T04:27:24.278Z",
+  "lastUpdated": "2026-10-06T04:27:34.594Z",
   "orders": [
     {
       "orderId": "3050",
@@ -43314,8 +43314,8 @@
     {
       "orderId": "7530",
       "shopifyRef": "#9482 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58181313",
       "date": "2026-10-06",
       "dispatched": "06 Oct 2026 11:33 am",
       "destination": "Nerang Centre Chempro Chemist - NERANG QLD",

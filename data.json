@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T04:25:48.493Z",
+  "lastUpdated": "2026-10-06T04:26:15.034Z",
   "orders": [
     {
       "orderId": "3050",
@@ -43184,8 +43184,8 @@
     {
       "orderId": "7517",
       "shopifyRef": "#9475 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58185821",
       "date": "2026-10-06",
       "dispatched": "06 Oct 2026 10:56 am",
       "destination": "Smith Collective Amcal Pharmacy And Lotto - SOUTHPORT QLD",

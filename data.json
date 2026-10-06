@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T04:26:15.034Z",
+  "lastUpdated": "2026-10-06T04:26:24.711Z",
   "orders": [
     {
       "orderId": "3050",
@@ -43194,8 +43194,8 @@
     {
       "orderId": "7518",
       "shopifyRef": "#9475 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58185821",
       "date": "2026-10-06",
       "dispatched": "06 Oct 2026 10:58 am",
       "destination": "Smith Collective Amcal Pharmacy - SOUTHPORT QLD",

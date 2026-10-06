@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T04:22:04.632Z",
+  "lastUpdated": "2026-10-06T04:23:24.923Z",
   "orders": [
     {
       "orderId": "3050",
@@ -42854,8 +42854,8 @@
     {
       "orderId": "7483",
       "shopifyRef": "#9456 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58183560",
       "date": "2026-10-06",
       "dispatched": "06 Oct 2026 09:33 am",
       "destination": "Terrywhite Chemmart Morayfield - MORAYFIELD QLD",

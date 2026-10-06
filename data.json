@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T04:21:55.033Z",
+  "lastUpdated": "2026-10-06T04:22:04.632Z",
   "orders": [
     {
       "orderId": "3050",
@@ -42844,8 +42844,8 @@
     {
       "orderId": "7482",
       "shopifyRef": "#9457 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58183257",
       "date": "2026-10-06",
       "dispatched": "06 Oct 2026 09:28 am",
       "destination": "Surfers Paradise Chempro Chemist - SURFERS PARADISE QLD",

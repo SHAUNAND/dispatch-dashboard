@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T04:38:18.165Z",
+  "lastUpdated": "2026-10-12T04:38:38.106Z",
   "orders": [
     {
       "orderId": "3050",
@@ -44764,8 +44764,8 @@
     {
       "orderId": "7680",
       "shopifyRef": "LNDSL TRF",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58490671",
       "date": "2026-10-12",
       "dispatched": "12 Oct 2026 10:12 am",
       "destination": "Peddler Distribution - NSW",

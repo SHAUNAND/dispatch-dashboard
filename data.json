@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T04:28:42.837Z",
+  "lastUpdated": "2026-10-19T04:28:57.296Z",
   "orders": [
     {
       "orderId": "453",
@@ -46724,8 +46724,8 @@
     {
       "orderId": "7875",
       "shopifyRef": "#9693 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58885269",
       "date": "2026-10-19",
       "dispatched": "19 Oct 2026 11:35 am",
       "destination": "Essence Dispensary - CARINA QLD",

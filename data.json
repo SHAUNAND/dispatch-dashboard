@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T04:29:59.997Z",
+  "lastUpdated": "2026-10-19T04:30:31.661Z",
   "orders": [
     {
       "orderId": "453",
@@ -46874,8 +46874,8 @@
     {
       "orderId": "7890",
       "shopifyRef": "#9700 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58896111",
       "date": "2026-10-19",
       "dispatched": "19 Oct 2026 01:47 pm",
       "destination": "Greenease Dispensary - DREWVALE QLD",

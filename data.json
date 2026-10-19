@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T04:26:20.700Z",
+  "lastUpdated": "2026-10-19T04:27:07.847Z",
   "orders": [
     {
       "orderId": "453",
@@ -46644,8 +46644,8 @@
     {
       "orderId": "7867",
       "shopifyRef": "#9690 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58872844",
       "date": "2026-10-19",
       "dispatched": "19 Oct 2026 10:11 am",
       "destination": "Brisbane Compounding Pharmacy - BOWEN HILLS QLD",

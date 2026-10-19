@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T04:27:55.097Z",
+  "lastUpdated": "2026-10-19T04:28:18.169Z",
   "orders": [
     {
       "orderId": "453",
@@ -46694,8 +46694,8 @@
     {
       "orderId": "7872",
       "shopifyRef": "#9692 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "58885269",
       "date": "2026-10-19",
       "dispatched": "19 Oct 2026 11:33 am",
       "destination": "Essence Dispensary - CARINA QLD",

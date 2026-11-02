@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T05:14:06.770Z",
+  "lastUpdated": "2026-11-02T05:14:23.723Z",
   "orders": [
     {
       "orderId": "453",
@@ -51404,8 +51404,8 @@
     {
       "orderId": "8348",
       "shopifyRef": "#9973 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "59756335",
       "date": "2026-11-02",
       "dispatched": "02 Nov 2026 01:26 pm",
       "destination": "Mullein Pharmacy - MOUNT GRAVATT QLD",

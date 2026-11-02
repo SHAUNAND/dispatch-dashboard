@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T04:54:28.435Z",
+  "lastUpdated": "2026-11-02T04:54:47.119Z",
   "orders": [
     {
       "orderId": "453",
@@ -50874,8 +50874,8 @@
     {
       "orderId": "8294",
       "shopifyRef": "#9948 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "59739036",
       "date": "2026-11-02",
       "dispatched": "02 Nov 2026 10:49 am",
       "destination": "Dispense Direct Pharmacy Pty Ltd - ACACIA RIDGE QLD",

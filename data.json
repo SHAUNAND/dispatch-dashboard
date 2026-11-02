@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T05:13:48.008Z",
+  "lastUpdated": "2026-11-02T05:14:06.770Z",
   "orders": [
     {
       "orderId": "453",
@@ -51184,8 +51184,8 @@
     {
       "orderId": "8325",
       "shopifyRef": "#9955 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "59764869",
       "date": "2026-11-02",
       "dispatched": "02 Nov 2026 02:10 pm",
       "destination": "Rays Wellness | Specialty Wellness & Lifestyle Pharmacy - FORTITUDE VALLEY QLD",

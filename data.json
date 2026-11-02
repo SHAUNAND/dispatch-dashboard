@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T04:58:47.754Z",
+  "lastUpdated": "2026-11-02T04:59:38.515Z",
   "orders": [
     {
       "orderId": "453",
@@ -50994,8 +50994,8 @@
     {
       "orderId": "8306",
       "shopifyRef": "#9940 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "59734143",
       "date": "2026-11-02",
       "dispatched": "02 Nov 2026 09:58 am",
       "destination": "Highland Chempro Chemist - HIGHLAND PARK QLD",

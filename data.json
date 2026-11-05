@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T04:55:24.202Z",
+  "lastUpdated": "2026-11-05T05:23:08.666Z",
   "orders": [
     {
       "orderId": "453",
@@ -52334,8 +52334,8 @@
     {
       "orderId": "8443",
       "shopifyRef": "#10030 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50091949",
       "date": "2026-11-04",
       "dispatched": "04 Nov 2026 02:20 pm",
       "destination": "Rays Wellness Melbourne - SOUTH MELBOURNE VIC",
@@ -52374,11 +52374,471 @@
     {
       "orderId": "8447",
       "shopifyRef": "#10031 - BODEGA",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50091926",
       "date": "2026-11-04",
       "dispatched": "04 Nov 2026 02:34 pm",
       "destination": "Dispensary On Lygon - CARLTON VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8448",
+      "shopifyRef": "#10032 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:53 am",
+      "destination": "Cann Life Dispensary - FITZROY VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8449",
+      "shopifyRef": "#10032 - SEC (2)",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Cann Life Dispensary - FITZROY VIC",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8450",
+      "shopifyRef": "#10032 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092210",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:55 am",
+      "destination": "Cann Life Dispensary - FITZROY VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8451",
+      "shopifyRef": "#10033 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092180",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:21 am",
+      "destination": "Frankston Compounding Pharmacy - FRANKSTON VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8452",
+      "shopifyRef": "#10034 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092177",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:35 am",
+      "destination": "Healthwise Pharmacy Rockdale - ROCKDALE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8453",
+      "shopifyRef": "#10034 - AHO",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:36 am",
+      "destination": "88 Railway St - ROCKDALE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8454",
+      "shopifyRef": "#10035 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092186",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:09 am",
+      "destination": "True Green Health Dispensary - STRATHPINE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8455",
+      "shopifyRef": "#10036 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092181",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:15 am",
+      "destination": "Chemist Warehouse Hyperdome Shopping Centre - LOGANHOLME QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8456",
+      "shopifyRef": "#10037 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:26 am",
+      "destination": "Astrid Health - SOUTH YARRA VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8457",
+      "shopifyRef": "#10037 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092179",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 09:28 am",
+      "destination": "Astrid Health South Yarra - SOUTH YARRA VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8458",
+      "shopifyRef": "#10038 - DANKRUPT",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092247",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:31 am",
+      "destination": "Stanmore Station Pharmacy - STANMORE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8459",
+      "shopifyRef": "#10038 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:35 am",
+      "destination": "Stanmore Station Pharmacy - STANMORE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8460",
+      "shopifyRef": "#10039 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092232",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:23 am",
+      "destination": "Cann Compounding Pharmacy - GLYNDE SA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8461",
+      "shopifyRef": "#10040 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092257",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:24 am",
+      "destination": "Norwood Village Compounding Pharmacy - NORWOOD SA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8462",
+      "shopifyRef": "#10040 - HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:18 am",
+      "destination": "Norwood Village Compounding Pharmacy - NORWOOD SA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8463",
+      "shopifyRef": "#10041 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092255",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:46 am",
+      "destination": "Prospectus Compounding Pharmacy - PROSPECT SA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8464",
+      "shopifyRef": "#10042 - DANKRUPT",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:49 am",
+      "destination": "Fraz Family Pharmacy Calamvale - CALAMVALE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8465",
+      "shopifyRef": "#10042 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092260",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:53 am",
+      "destination": "Fraz Family Pharmacy Calamvale - CALAMVALE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8466",
+      "shopifyRef": "#10043 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092261",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 10:57 am",
+      "destination": "Pittwater Pharmacy Compounding Chemist - MONA VALE NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8467",
+      "shopifyRef": "#10044 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092321",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 11:33 am",
+      "destination": "Basgers Pharmacy - NORTH BONDI NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8468",
+      "shopifyRef": "#10045 - DANKRUPT",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 11:42 am",
+      "destination": "Montague's Pharmacy - MORWELL VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8469",
+      "shopifyRef": "#10045 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092331",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 11:42 am",
+      "destination": "Montague's Pharmacy - MORWELL VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8470",
+      "shopifyRef": "#10046 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092326",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 11:36 am",
+      "destination": "Bloomers Pharmacy Chatswood- Plant-based Dispensary - CHATSWOOD NSW",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8471",
+      "shopifyRef": "#10047 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092333",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 11:52 am",
+      "destination": "Brisbane Compounding Pharmacy - BOWEN HILLS QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8472",
+      "shopifyRef": "#10048 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092389",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 12:50 pm",
+      "destination": "Wellness Pharmacy Allenby Gardens - ALLENBY GARDENS SA",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8473",
+      "shopifyRef": "#10049 - BODEGA (2)",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Ace Pharmacy Baringa - BARINGA QLD",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8474",
+      "shopifyRef": "#10049 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092390",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 12:58 pm",
+      "destination": "Ace Pharmacy Baringa - BARINGA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8475",
+      "shopifyRef": "#10050 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Florae Dispensary - PARRAMATTA NSW",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8476",
+      "shopifyRef": "#10051 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Priceline Pharmacy - KIPPA-RING QLD",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8477",
+      "shopifyRef": "#10051 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092393",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:08 pm",
+      "destination": "Priceline Pharmacy Kippa-ring - KIPPA-RING QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8478",
+      "shopifyRef": "#10052 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Cannabloom Specialty Dispensary - PASCOE VALE SOUTH VIC",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8479",
+      "shopifyRef": "#10053 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Tablelands Discount Drug Store - ATHERTON QLD",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8480",
+      "shopifyRef": "#10054 - SEC",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092392",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:08 pm",
+      "destination": "Capalaba Park Chempro Chemist - CAPALABA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8481",
+      "shopifyRef": "#10055 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:35 pm",
+      "destination": "United Chemists Mount Louisa - MOUNT LOUISA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8482",
+      "shopifyRef": "#10055 - HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:36 pm",
+      "destination": "United Chemists Mount Louisa - MOUNT LOUISA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8483",
+      "shopifyRef": "#10055 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092464",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:33 pm",
+      "destination": "United Chemists Mount Louisa - MOUNT LOUISA QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8484",
+      "shopifyRef": "#10056 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092467",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:43 pm",
+      "destination": "Rays Wellness Melbourne | Specialty Wellness & Lifestyle Pharmacy - SOUTH MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8485",
+      "shopifyRef": "#10056 - SEC",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:43 pm",
+      "destination": "Rays Wellness Melbourne - SOUTH MELBOURNE VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8486",
+      "shopifyRef": "#10057 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Rays Wellness Melbourne - SOUTH MELBOURNE VIC",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8487",
+      "shopifyRef": "#10058 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092468",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:48 pm",
+      "destination": "Surfers Paradise Chempro Chemist - SURFERS PARADISE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8488",
+      "shopifyRef": "#10058 - HOWDY",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:48 pm",
+      "destination": "Surfers Paradise Chempro Chemist - SURFERS PARADISE QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8489",
+      "shopifyRef": "#10060 - HOWDY",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092469",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 01:56 pm",
+      "destination": "Pine Dispensary - TOOWOOMBA CITY QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8490",
+      "shopifyRef": "INV-9859",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 02:51 pm",
+      "destination": "Ace Pharmacy Warner - WARNER QLD",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8491",
+      "shopifyRef": "#10059 - BODEGA",
+      "carrier": "StarTrack",
+      "tracking": "7ODZ50092495",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 02:08 pm",
+      "destination": "Direct Chemist Outlet Cranbourne West - CRANBOURNE WEST VIC",
+      "status": "Dispatched"
+    },
+    {
+      "orderId": "8492",
+      "shopifyRef": "#10061 - BODEGA",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "",
+      "dispatched": "",
+      "destination": "Rays Wellness | Specialty Wellness & Lifestyle Pharmacy - FORTITUDE VALLEY QLD",
+      "status": "Awaiting Stock"
+    },
+    {
+      "orderId": "8493",
+      "shopifyRef": "#10061 - BODEGA (2)",
+      "carrier": "-",
+      "tracking": "-",
+      "date": "2026-11-05",
+      "dispatched": "05 Nov 2026 02:54 pm",
+      "destination": "Rays Wellness | Specialty Wellness & Lifestyle Pharmacy - FORTITUDE VALLEY QLD",
       "status": "Dispatched"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T04:11:17.450Z",
+  "lastUpdated": "2026-11-09T04:11:38.976Z",
   "orders": [
     {
       "orderId": "453",
@@ -53324,8 +53324,8 @@
     {
       "orderId": "8545",
       "shopifyRef": "#10093 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "60166092",
       "date": "2026-11-09",
       "dispatched": "09 Nov 2026 08:51 am",
       "destination": "Keperra Chempro Chemist - KEPERRA QLD",

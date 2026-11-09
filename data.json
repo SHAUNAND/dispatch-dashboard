@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T04:14:46.230Z",
+  "lastUpdated": "2026-11-09T04:14:56.541Z",
   "orders": [
     {
       "orderId": "453",
@@ -53394,8 +53394,8 @@
     {
       "orderId": "8552",
       "shopifyRef": "#10089 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "60147013",
       "date": "2026-11-09",
       "dispatched": "09 Nov 2026 09:06 am",
       "destination": "Woodridge Parklands Plaza Chempro Chemist - WOODRIDGE QLD",

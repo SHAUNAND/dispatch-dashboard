@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T04:13:41.510Z",
+  "lastUpdated": "2026-11-09T04:13:52.810Z",
   "orders": [
     {
       "orderId": "453",
@@ -53284,8 +53284,8 @@
     {
       "orderId": "8541",
       "shopifyRef": "#10097 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "60179345",
       "date": "2026-11-09",
       "dispatched": "09 Nov 2026 08:40 am",
       "destination": "Ipswich Central Chempro Chemist - IPSWICH QLD",

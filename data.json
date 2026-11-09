@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T04:21:10.938Z",
+  "lastUpdated": "2026-11-09T04:22:35.125Z",
   "orders": [
     {
       "orderId": "453",
@@ -53664,8 +53664,8 @@
     {
       "orderId": "8580",
       "shopifyRef": "#10114 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "60175203",
       "date": "2026-11-09",
       "dispatched": "09 Nov 2026 12:42 pm",
       "destination": "Care Direct Clinic - ACACIA RIDGE QLD",

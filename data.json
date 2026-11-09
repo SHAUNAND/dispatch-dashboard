@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T04:08:26.228Z",
+  "lastUpdated": "2026-11-09T04:09:34.788Z",
   "orders": [
     {
       "orderId": "453",
@@ -53414,8 +53414,8 @@
     {
       "orderId": "8554",
       "shopifyRef": "#10086 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "60143393",
       "date": "2026-11-09",
       "dispatched": "09 Nov 2026 09:17 am",
       "destination": "Ashmore Plaza Chempro Chemist - ASHMORE QLD",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T21:30:18.876Z",
+  "lastUpdated": "2026-11-16T21:30:38.278Z",
   "orders": [
     {
       "orderId": "453",
@@ -55934,8 +55934,8 @@
     {
       "orderId": "8809",
       "shopifyRef": "#10250 - SEC",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "60665426",
       "date": "2026-11-16",
       "dispatched": "16 Nov 2026 01:33 pm",
       "destination": "Kenmore Central Chempro Chemist - KENMORE QLD",

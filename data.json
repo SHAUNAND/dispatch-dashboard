@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T04:34:41.333Z",
+  "lastUpdated": "2026-11-23T04:35:02.647Z",
   "orders": [
     {
       "orderId": "453",
@@ -58034,8 +58034,8 @@
     {
       "orderId": "9022",
       "shopifyRef": "#10375 - HOWDY",
-      "carrier": "-",
-      "tracking": "-",
+      "carrier": "Dir Couriers",
+      "tracking": "61203290",
       "date": "2026-11-23",
       "dispatched": "23 Nov 2026 02:28 pm",
       "destination": "Broadbeach Waters Pharmacy - BROADBEACH WATERS QLD",
